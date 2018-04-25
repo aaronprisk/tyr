@@ -14,6 +14,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License along with this program.  If not, see [gnu.org/licenses](http://www.gnu.org/licenses/).
 
 Tyr - Copyright (C) [Aaron Prisk](mailto:aaronprisk@gmail.com)
+
 Fedy - Copyright (C) [Satyajit Sahoo](mailto:satyajit.happy@gmail.com)
 
 ### Dependencies
@@ -32,7 +33,9 @@ To install Tyr from source:
 ```
 $ git clone https://github.com/aaronprisk/tyr.git
 ```
+```
 $ cd tyr
+```
 ```
 $ sudo make install
 ```

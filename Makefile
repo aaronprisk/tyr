@@ -1,5 +1,5 @@
 # Install Tyr
-
+SHELL := /bin/bash # Use bash syntax
 install-core:
 	install -dm755 $(DESTDIR)/usr/bin/
 	install -dm755 $(DESTDIR)/usr/share/tyr/

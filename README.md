@@ -1,3 +1,7 @@
+# Tyr
+
+![Alt text](https://github.com/aaronprisk/tyr/blob/master/img/tyr.png "Tyr GUI")
+
 ### Introduction
 Tyr is a fork of [Fedy](https://github.com/fedy/fedy), a tool that lets you install popular FOSS and proprietary software that Ubuntu may not ship with just a few clicks.
 

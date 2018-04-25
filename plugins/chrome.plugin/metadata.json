@@ -1,0 +1,18 @@
+{
+	"icon": "chrome.png",
+	"label": "Google Chrome",
+	"description": "Google Chrome",
+	"license": "Proprietary",
+	"category": "Apps",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remove",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "test -f /usr/bin/google-chrome-stable" }
+	}
+}

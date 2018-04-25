@@ -1,0 +1,18 @@
+{
+	"icon": "skype.png",
+	"label": "Skype",
+	"description": "Video and chat platform",
+	"license": "Proprietary",
+	"category": "Apps",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remove",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "test -f /snap/bin/skype" }
+	}
+}

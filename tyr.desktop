@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Tyr
+GenericName=Tyr
+Icon=fedy
+Comment=Install additional software
+Exec=tyr
+Terminal=false
+Type=Application
+Categories=Utility;
+Keywords=clean;codec;fix;install;proprietary;

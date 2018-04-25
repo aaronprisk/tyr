@@ -1,0 +1,18 @@
+{
+	"icon": "atom.png",
+	"label": "Atom Editor",
+	"description": "GitHub's source code editor",
+	"license": "MIT",
+	"category": "Apps",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remove",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "test -f /snap/bin/atom" }
+	}
+}

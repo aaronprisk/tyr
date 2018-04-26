@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Tyr
 GenericName=Tyr
-Icon=fedy
+Icon=tyr
 Comment=Install additional software
 Exec=tyr
 Terminal=false

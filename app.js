@@ -372,7 +372,7 @@ const Application = new Lang.Class({
                     const notification = new Notify.Notification({
                         summary: "Task " + (status === 0 ? "completed!" : "failed!"),
                         body: plugin.label + " (" + action.label + ") " + (status === 0 ? "successfully completed." : "failed."),
-                        icon_name: "fedy",
+                        icon_name: "tyr",
                         id: this._hashString(plugin.category + plugin.label)
                     });
 
@@ -688,7 +688,7 @@ const Application = new Lang.Class({
         let system = this._loadPluginsFromDir(GLib.get_current_dir() + "/plugins");
 
         // User plugins
-        let user = this._loadPluginsFromDir(GLib.get_user_data_dir() + "/fedy/plugins");
+        let user = this._loadPluginsFromDir(GLib.get_user_data_dir() + "/tyr/plugins");
 
         this._extendObject(this._plugins, system, user);
     },
@@ -700,7 +700,7 @@ const Application = new Lang.Class({
         let system = this._loadJSON(GLib.get_current_dir() + "/config.json");
 
         // User config
-        let user = this._loadJSON(GLib.get_user_data_dir() + "/fedy/config.json");
+        let user = this._loadJSON(GLib.get_user_data_dir() + "/tyr/config.json");
 
         this._extendObject(this._config, system, user);
     }

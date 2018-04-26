@@ -15,7 +15,7 @@ const Application = new Lang.Class({
 
     _init: function() {
         this.application = new Gtk.Application({
-            application_id: "org.folkswithhats.fedy",
+            application_id: "org.corvos.tyr",
             flags: Gio.ApplicationFlags.FLAGS_NONE
         });
 
@@ -33,7 +33,7 @@ const Application = new Lang.Class({
             });
 
         try {
-            let icon = Gtk.IconTheme.get_default().load_icon("fedy", 48, 0);
+            let icon = Gtk.IconTheme.get_default().load_icon("tyr", 48, 0);
 
             this._window.set_icon(icon);
         } catch (e) {

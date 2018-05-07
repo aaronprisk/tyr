@@ -1,6 +1,8 @@
 # Tyr
 
-![Alt text](https://github.com/aaronprisk/tyr/blob/master/img/tyr-icon.png "Tyr Icon")
+<p align="center"> 
+<img src="https://github.com/aaronprisk/tyr/blob/master/img/tyr-icon.png">
+</p>
 
 ![Alt text](https://github.com/aaronprisk/tyr/blob/master/img/tyr.png "Tyr GUI")
 

@@ -1,5 +1,7 @@
 # Tyr
 
+![Alt text](https://github.com/aaronprisk/tyr/blob/master/img/tyr-icon.png "Tyr Icon")
+
 ![Alt text](https://github.com/aaronprisk/tyr/blob/master/img/tyr.png "Tyr GUI")
 
 ### Introduction
